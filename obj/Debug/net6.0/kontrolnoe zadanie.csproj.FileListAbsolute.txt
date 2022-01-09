@@ -1,0 +1,16 @@
+E:\work\kontrolnoe zadanie\bin\Debug\net6.0\kontrolnoe zadanie.exe
+E:\work\kontrolnoe zadanie\bin\Debug\net6.0\kontrolnoe zadanie.deps.json
+E:\work\kontrolnoe zadanie\bin\Debug\net6.0\kontrolnoe zadanie.runtimeconfig.json
+E:\work\kontrolnoe zadanie\bin\Debug\net6.0\kontrolnoe zadanie.dll
+E:\work\kontrolnoe zadanie\bin\Debug\net6.0\ref\kontrolnoe zadanie.dll
+E:\work\kontrolnoe zadanie\bin\Debug\net6.0\kontrolnoe zadanie.pdb
+E:\work\kontrolnoe zadanie\obj\Debug\net6.0\kontrolnoe zadanie.GlobalUsings.g.cs
+E:\work\kontrolnoe zadanie\obj\Debug\net6.0\kontrolnoe zadanie.csproj.AssemblyReference.cache
+E:\work\kontrolnoe zadanie\obj\Debug\net6.0\kontrolnoe zadanie.GeneratedMSBuildEditorConfig.editorconfig
+E:\work\kontrolnoe zadanie\obj\Debug\net6.0\kontrolnoe zadanie.AssemblyInfoInputs.cache
+E:\work\kontrolnoe zadanie\obj\Debug\net6.0\kontrolnoe zadanie.AssemblyInfo.cs
+E:\work\kontrolnoe zadanie\obj\Debug\net6.0\kontrolnoe zadanie.csproj.CoreCompileInputs.cache
+E:\work\kontrolnoe zadanie\obj\Debug\net6.0\kontrolnoe zadanie.dll
+E:\work\kontrolnoe zadanie\obj\Debug\net6.0\ref\kontrolnoe zadanie.dll
+E:\work\kontrolnoe zadanie\obj\Debug\net6.0\kontrolnoe zadanie.pdb
+E:\work\kontrolnoe zadanie\obj\Debug\net6.0\kontrolnoe zadanie.genruntimeconfig.cache

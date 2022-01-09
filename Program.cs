@@ -1,30 +1,70 @@
 ﻿
+//  Написать программу, которая из имеющегося массива целых чисел формирует массив из четных чисел.
+// Первоначальный массив можно ввести с клавиатуры, либо сгенерировать случайным образом. При решении не
+// рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
 // //что делаем?
+//1. создать массив
+//2. отобрать чётные числа
+//3. перенести их в новый массив
 
 // //Задать массив
-int[] A = new int[100];
-
-    int index = 0;
-    while (index < 10)
-    {
-       A[index] = new Random().Next(-50,50);
-        index++;
-    }
-
-    index = 0;
-    //Заполняем массив
-        while (index < 10)
-    {
-       Console.WriteLine(A[index]);
-        index++;
-    }
-string valueNumber (int i)
+void FillArray(int[] array)
 {
-    string res = string.Empty;
-    if (i % 2 == 0) {res = $"Чётное";}
-    else 
-    return res;
+    int index = 0;
+    while (index < array.Length)
+    {
+        array[index] = new Random().Next(0, 50);
+        index++;
+    }
 }
-string res = valueNumber(13);
-Console.WriteLine($"{res}");
+
+void PrintArrау(int[] array)
+{
+    int index = 0;
+    while (index < array.Length)
+    {
+        Console.WriteLine(array[index]);
+        index++;
+    }
+}
+
+int CountEvenNumbers(int[] oldArrау)
+{
+    // посчитать сколько чисел четные
+    // создать массив с этим числом
+    // пройтись заново по массиву, найти четное число и добавить его в новой массив
+    // return newArr;
+    int index = 0;
+    int countEvenNumbers = 0;
+    while (index < oldArrау.Length)
+    {
+        if (oldArrау[index] % 2 == 0) countEvenNumbers++;
+        index++;
+    }
+    return countEvenNumbers;
+}
+void NewArr(int[] newArray, int[] oldArr)
+{
+    int index = 0;
+    int index2 = 0;
+    while (index < oldArr.Length)
+    {
+        if (oldArr[index] % 2 == 0)
+        {
+            newArray[index2] = oldArr[index];
+            index2++;
+        }
+        index++;
+    }
+}
+// общее
+
+int[] A = new int[10];
+FillArray(A);
+PrintArrау(A);
+int[] N = new int[CountEvenNumbers(A)];
+NewArr(N, A); 
+Console.WriteLine();
+PrintArrау(N);
+
