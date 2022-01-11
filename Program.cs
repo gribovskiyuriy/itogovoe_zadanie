@@ -31,10 +31,10 @@ void PrintArrау(int[] array)
 
 int CountEvenNumbers(int[] oldArrау)
 {
-    // посчитать сколько чисел четные
-    // создать массив с этим числом
-    // пройтись заново по массиву, найти четное число и добавить его в новой массив
-    // return newArr;
+    // посчитать сколько чисел чётные
+    // создать массив с этими числами
+    // пройтись по новому массиву, найти четные числа и добавить их в новый массив
+    // return countEvenNumber;
     int index = 0;
     int countEvenNumbers = 0;
     while (index < oldArrау.Length)
@@ -67,4 +67,6 @@ int[] N = new int[CountEvenNumbers(A)];
 NewArr(N, A); 
 Console.WriteLine();
 PrintArrау(N);
+
+
 
