@@ -24,7 +24,7 @@ void PrintArrау(int[] array)
     int index = 0;
     while (index < array.Length)
     {
-        Console.WriteLine(array[index]);
+        Console.Write(array[index]+" ");
         index++;
     }
 }
@@ -67,6 +67,7 @@ int[] N = new int[CountEvenNumbers(A)];
 NewArr(N, A); 
 Console.WriteLine();
 PrintArrау(N);
+Console.WriteLine();
 
 
 
