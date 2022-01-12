@@ -9,7 +9,7 @@
 //3. перенести их в новый массив
 
 // //Задать массив
-void FillArray(int[] array)
+int[] FillArray(int[] array)
 {
     int index = 0;
     while (index < array.Length)
@@ -17,6 +17,7 @@ void FillArray(int[] array)
         array[index] = new Random().Next(0, 50);
         index++;
     }
+    return array;
 }
 
 void PrintArrау(int[] array)
@@ -24,7 +25,7 @@ void PrintArrау(int[] array)
     int index = 0;
     while (index < array.Length)
     {
-        Console.Write(array[index]+" ");
+        Console.Write(array[index] + " ");
         index++;
     }
 }
@@ -44,7 +45,7 @@ int CountEvenNumbers(int[] oldArrау)
     }
     return countEvenNumbers;
 }
-void NewArr(int[] newArray, int[] oldArr)
+int[] NewArr(int[] newArray, int[] oldArr)
 {
     int index = 0;
     int index2 = 0;
@@ -57,6 +58,7 @@ void NewArr(int[] newArray, int[] oldArr)
         }
         index++;
     }
+    return newArray;
 }
 // общее
 
@@ -64,7 +66,7 @@ int[] A = new int[10];
 FillArray(A);
 PrintArrау(A);
 int[] N = new int[CountEvenNumbers(A)];
-NewArr(N, A); 
+NewArr(N, A);
 Console.WriteLine();
 PrintArrау(N);
 Console.WriteLine();
